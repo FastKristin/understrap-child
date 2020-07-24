@@ -1,0 +1,64 @@
+/*
+/ Atoms
+============================*/
+
+
+.btn-secondary {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  color: $color-secondary;
+  &:hover {
+    background-color: transparent;
+    color: $color-accent-2;
+    font-weight: bold;
+  }
+}
+
+.white-gradient {
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 50%;
+  background: linear-gradient(0deg, rgba(255,255,255,.9), rgba(255,255,255,0));
+  @include media(">md") {
+    bottom: 0;
+    right: 30%;
+    background: linear-gradient(270deg, rgba(255,255,255,.9), rgba(255,255,255,0));
+  }
+}
+
+.white-block {
+  position: absolute;
+  top:50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(0deg, rgba(255,255,255,1), rgba(255,255,255,.9));
+  @include media(">=md") {
+    left: 70%;
+    top: 0;
+    background: linear-gradient(270deg, rgba(255,255,255,1), rgba(255,255,255,.9));
+  }
+}
+
+
+.mb-4 {
+  margin-bottom: $unit2;
+  @include media(">=md") {
+    margin-bottom: $unit4!important;
+  }
+}
+
+.understrap-read-more-link {
+  font-size: 1.2rem;
+  font-family: $second-font-family;
+  color: $color-secondary;
+}
+
+.card {
+  .understrap-read-more-link {
+    margin-top: $unit1;
+  }
+}

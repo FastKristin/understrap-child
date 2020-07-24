@@ -1,0 +1,48 @@
+/*
+/ Footer styles
+==========================*/
+#wrapper-footer-full {
+  background-color:darken($color-primary, 5%);
+  color:#faf3e3;
+  h3.widget-title {
+    padding:10px 0;
+    margin-bottom: $unit1;
+    font-family: $second-font-family;
+    font-weight: 400;
+    color: $color-accent-1;
+  }
+}
+
+ul#menu-pages {
+  margin-left:0;
+  padding-left: $halfunit;
+  li {
+    margin-right: -40px;
+    display: block;
+    clear: both;
+    margin-bottom: 0;
+    padding-left: 0;
+    line-height: 1.5;
+    &:before {
+      display: none;
+    }
+    a {
+      color: $white;
+      font-weight: 600;
+      text-transform: uppercase;
+      display: block;padding: $halfunit 0;
+    }
+  }
+}
+
+#wrapper-footer {
+  background-color: $color-accent-3;
+  padding: $unit2 0;
+  .site-info {
+    color: $color-accent-1;
+    font-size: .9rem;
+    a {
+      color: rgba(255,255,255,.9);
+    }
+  }
+}

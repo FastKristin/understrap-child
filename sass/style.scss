@@ -1,0 +1,25 @@
+/*!
+ Theme Name:   K Fast Theme
+ Theme URI:
+ Description:  Kristin's Understrap Child Theme
+ Author:       Kristin Fast extends US team
+ Author URI:   http://example.com
+ Template:     understrap
+ Version:      
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  understrap-child
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+K Fast Theme is based on Understrap (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+//import main file to import all other scss files
+@import "imports";

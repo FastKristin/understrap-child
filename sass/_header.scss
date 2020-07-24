@@ -1,0 +1,26 @@
+/*
+// Header styles
+//////////////////////*/
+
+.navbar-toggleable-md {
+  background-color: $color-accent-3;
+ .container {
+   justify-content: space-between;
+   .navbar-brand {
+     align-self: flex-start;
+     font-weight: 600;
+     font-family: $second-font-family;
+     color: $white;
+   }
+   .menu-block {
+     li {
+       a {
+         font-family: $second-font-family;
+         font-weight: 700;
+         color: $white;
+         font-size: 1.125rem;
+       }
+     }
+   }
+  }
+}

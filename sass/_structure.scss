@@ -1,0 +1,22 @@
+/*
+Sructure
+================================================================*/
+body {
+  font-family: $base-font-family;
+  font-size: $font-size-base;
+  line-height: $line-height;
+  @include font-smoothing(on);
+  text-rendering: optimizelegibility;
+  color: $font-color;
+  overflow-x: hidden;
+  background-color: $white;
+  &.mobile-menu {
+    height: 100%;
+    overflow-y:hidden;
+  }
+}
+
+.wrapper {
+  padding-top: $unit2;
+  padding-bottom: $unit2;
+}

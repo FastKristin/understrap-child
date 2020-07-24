@@ -1,0 +1,80 @@
+.entry-header {
+  position: relative;
+  h1, h2 {
+    margin-left: 90px;
+  }
+  .entry-meta, .posted-on {
+    position: absolute;
+    top: -3px;
+    left: 0;
+    .date {
+      display: inline-block;
+      position: relative;
+      width: 70px;
+      height: 56px;
+      background-color: $color-primary;
+      color: $white;
+      border-radius: 5px;
+      .month-day {
+        position: absolute;
+        display: inline-block;
+        font-size: 1rem;
+        width: 100%;
+        top: 3px;
+        right: 10px;
+        left: 10px;
+        border-bottom: 1px solid $white;
+      }
+      .year {
+        position: absolute;
+        left: 10px;
+        right: 10px;
+        bottom: 3px;
+      }
+    }
+  }
+}
+
+.entry-footer {
+  .cat-links {
+    a {
+      background-color: $color-secondary;
+      color: $white;
+      padding: 4px 10px 6px;
+      border-radius: 15px;
+    }
+  }
+  .tags-links {
+    a {
+      background-color: $color-primary;
+      color: $white;
+      padding: 4px 10px 6px;
+      border-radius: 15px;
+    }
+  }
+}
+
+.card-body {
+position: relative;
+  &:before {
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 58px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: $color-accent-5;
+  }
+}
+
+.entry-content {
+  padding-bottom: $unit2;
+  margin-bottom: $unit2;
+  border-bottom: $color-accent-5 solid 1px;
+}
+
+.tagline {
+  font-family: $second-font-family;
+  font-style: italic;
+}

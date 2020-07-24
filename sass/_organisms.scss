@@ -1,0 +1,96 @@
+/*
+/ Organisms
+===========================*/
+
+.home-name, .home-tagline {
+  text-align:center;
+  // font-style:italic;
+  position:relative;
+  z-index:1;
+}
+
+.home-name {
+  margin-bottom: $unit3;
+}
+
+.page-title {
+  font-weight: 400;
+  margin-top: $unit2;
+}
+
+.page-subtitle {
+  color: $white;
+  font-style: normal;
+}
+
+.post-block {
+  margin-top: $unit4;
+  padding-bottom: $unit4;
+  border-bottom: 1px solid $color-accent-1;
+  @include media(">=md") {
+    margin-top: $unit8;
+    padding-bottom: $unit8;
+  }
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.card, a .card {
+  border-radius: 0;
+  border: none;
+  .card-header {
+    background-color: lighten($color-accent-1, 30%);
+    padding-top: $unit2;
+    h3, p {
+      color: $color-accent-2;
+    }
+    .card-title {
+      margin-bottom: $halfunit;
+    }
+  }
+  .card-body {
+    // border: 1px solid $color-accent-1;
+    // border-top: none;
+    box-shadow: 2px 2px 2px 2px rgba(162, 167, 158, .1);
+    padding: $unit2 $unit2;
+    .btn {
+      border: none;
+      padding: 0;
+      color: $color-secondary;
+    }
+  }
+}
+
+a {
+  .card {
+    p {
+      color: $font-color;
+    }
+  }
+  &:hover {
+    .card {
+      .p {
+        color: $color-accent-2;
+      }
+    }
+  }
+}
+
+.archive {
+  .page-header {
+    margin-bottom: $unit3;
+    @include media(">=md") {
+      margin-bottom: $unit5;
+    }
+    .page-title {
+      @extend h1;
+      color: $color-secondary;
+      margin: $unit2 auto $unit1;
+    }
+    .taxonomy-description {
+      text-align: center;
+      font-style: italic;
+    }
+  }
+}

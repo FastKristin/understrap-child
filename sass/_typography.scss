@@ -1,0 +1,137 @@
+/*
+Typography and Icons
+================================================================*/
+// Headings From Base Blocks
+
+h1 {
+  @include font-size($h1-font-sizes);
+  font-weight: 300;
+  font-family: $second-font-family;
+}
+
+h2 {
+  @include font-size($h2-font-sizes);
+  font-weight: 300;
+  font-family: $second-font-family;
+  margin-bottom: 25px;
+}
+
+h3 {
+  @include font-size($h3-font-sizes);
+  font-weight: 300;
+  font-family: $second-font-family;
+  margin-bottom: $unit2;
+  &.subfooter {
+    font-weight: 500;
+  }
+}
+
+h4 {
+  @include font-size($h4-font-sizes);
+  font-weight: 300;
+  font-family: $second-font-family;
+  margin-bottom: $unit2;
+}
+
+h5 {
+  @include font-size($h5-font-sizes);
+  font-weight: 300;
+  font-family: $second-font-family;
+}
+
+h6 {
+  @include font-size($h6-font-sizes);
+  font-weight: 400;
+  font-family: $second-font-family;
+}
+
+p, ul, li {
+  @include font-size($p-font-sizes);
+  margin-bottom: $unit2;
+  font-family: $base-font-family;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.lead {
+  font-size: 1.25rem;
+  line-height: 1.75em;
+  @include media(">=md") {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1.125rem;
+    line-height: 1.75em;
+    @include media(">=md") {
+      font-size: 1.25rem;
+    }
+  }
+}
+
+.small {
+  font-size: .9rem;
+  line-height: 1.714em;
+}
+
+.legal {
+  font-size: .8rem;
+}
+
+blockquote {
+  font-size: 1.125rem;
+  line-height: 1.9em;
+  cite {
+    font-style: italic;
+  }
+}
+
+ul {
+  list-style: none;
+  padding-left: $unit1;
+  li {
+    position: relative;
+		display: block;
+		padding-left: $unit;
+    line-height: 1.9em;
+    font-size: 1rem;
+		&:before {
+			display: block;
+			position: absolute;
+      content: "";
+			top: 11px;
+			left: -5px;
+      width: 8px;
+      height: 8px;
+			background-color: $color-primary;
+		}
+  }
+  &.nav, &.navbar-nav {
+    padding-left: 0;
+    li {
+      &:before {
+        display: none;
+      }
+    }
+  }
+}
+
+ul.pagination {
+  li {
+    display: inline-block;
+    &:before {
+      display: none;
+    }
+  }
+}
+
+a {
+  color: $color-primary;
+  &:hover, &:focus {
+    color: $color-accent-2;
+    text-decoration: none;
+  }
+  &:active {
+    color: $color-secondary;
+  }
+}

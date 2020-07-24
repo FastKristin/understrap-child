@@ -1,0 +1,207 @@
+// This file contains variables that override bootstrap or other css package variables.
+
+// Fonts
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300i,400,600');
+@import url('https://fonts.googleapis.com/css?family=Bitter:400,700');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Eczar:400,500,600,700');
+
+
+$base-font-family: 'Lato', Helvetica, Arial, sans-serif;
+$second-font-family: 'Eczar', 'Times New Roman', serif;
+$third-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+$fourth-font-family: 'Bitter', Verdana, serif;
+
+$font-family-sans-serif: $base-font-family;
+
+$fa-font-path:        "fonts";
+
+
+// Colors
+$color-primary: #4d2c3d; //#636c72  Purple/Red
+$color-secondary: #2f4b26; //#292b2c  Green
+$color-accent-1: #a2a79e; //#eceeef  Pale stone grey
+$color-accent-2: #155765; //#b29000  Blue
+$color-accent-3: #292b2c; //#bd4147
+$color-accent-4: #f7f7f9;
+$color-accent-5: #ddd;
+$color-accent-6: #2d3907;
+$color-accent-7: #40033e;
+$color-accent-8: #47663c;
+
+$white: #FFFFFF;
+$black: #000000;
+
+
+$link-color:$color-primary;
+$font-color: #333333;
+$font-light:#fff;
+
+// Font Sizes.
+$font-size-base:              1rem; // 1 rem assumes the browser default, typically `16px`
+$font-size: $font-size-base;
+
+$font-size-lg:                ($font-size-base * 1.25);
+$font-size-sm:                ($font-size-base * .875);
+$line-height: 1.6;
+
+// 'include-media' plugging into Bootstrap 4's Grid Breakpoints map
+$grid-breakpoints: (
+  xs: 0,
+  sm: 544px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1600px
+);
+$breakpoints: $grid-breakpoints;
+
+$spacer: 10px;
+$spacers: (
+  0: 0,
+  1: ($spacer * 1),
+  2: ($spacer * 2),
+  3: ($spacer * 3),
+  4: ($spacer * 4),
+  5: ($spacer * 5),
+  6: ($spacer * 6),
+  7: ($spacer * 7),
+  8: ($spacer * 8),
+  9: ($spacer * 9),
+  10: ($spacer * 10),
+  11: ($spacer * 11),
+  12: ($spacer * 12),
+  13: ($spacer * 13),
+  14: ($spacer * 14),
+  15: ($spacer * 15),
+  16: ($spacer * 16),
+  17: ($spacer * 17),
+  18: ($spacer * 18),
+  19: ($spacer * 19),
+  20: ($spacer * 20),
+  25: ($spacer * 25),
+);
+
+
+//units - add custom as needed
+$unit: 10px;
+
+$halfunit: $unit/2;
+$unit1: $unit*1;
+$u-15: $unit1 + $halfunit;
+$unit2: $unit*2;
+$unit3: $unit*3;
+$unit4: $unit*4;
+$unit5: $unit*5;
+$unit6: $unit*6;
+$unit7: $unit*7;
+$unit8: $unit*8;
+$unit9: $unit*9;
+$unit10: $unit*10;
+$unit11: $unit*11;
+$unit12: $unit*12;
+$unit13: $unit*13;
+$unit14: $unit*14;
+$unit15: $unit*15;
+$unit16: $unit*16;
+$unit17: $unit*17;
+$unit18: $unit*18;
+$unit19: $unit*19;
+$unit20: $unit*20;
+$unit25: $unit*25;
+// Header margin
+$heading-margin: 0.7em;
+
+// Block
+$block-padding: 100px;
+$block-padding-mobile: 50px;
+
+// Buttons
+$btn-padding: $u-15 $unit4;
+$btn-padding-mobile: $halfunit $unit2;
+$btn-bg-color: $color-primary;
+$btn-text-color: #FFF;
+$btn-hover-text-color: #FFF;
+$btn-hover-bg-color: darken($btn-bg-color, 10%);
+
+$btn-white-bg-color: $white;
+$btn-white-text-color: $black;
+$btn-white-hover-text-color: $btn-white-text-color;
+$btn-white-hover-bg-color: #DEDEDE;
+
+$btn-black-bg-color: $black;
+$btn-black-text-color: $white;
+$btn-black-hover-text-color: #FFF;
+$btn-black-hover-bg-color: lighten($btn-black-bg-color, 5%);
+
+$btn-border-radius: 0px;
+
+$btn-shadow: 1;
+
+//font size templates
+$h1-font-sizes: (
+  null: 2.074rem,
+  xs: 2.074rem,
+  sm: 2.074rem,
+  md: 2.998rem,
+  lg: 2.998rem,
+  xl: 2.998rem,
+);
+
+$h2-font-sizes: (
+  null: 1.728rem,
+  xs: 1.728rem,
+  sm: 1.728rem,
+  md: 2.477rem,
+  lg: 2.477rem,
+  xl: 2.477rem,
+);
+
+$h3-font-sizes: (
+  null: 1.44rem,
+  xs: 1.44rem,
+  sm: 1.44rem,
+  md: 1.999rem,
+  lg: 1.999rem,
+  xl: 1.999rem,
+);
+
+$h4-font-sizes: (
+  null: 1.2rem,
+  xs: 1.2rem,
+  sm: 1.2rem,
+  md: 1.414rem,
+  lg: 1.414rem,
+  xl: 1.414rem,
+);
+
+$h5-font-sizes: (
+  null: 1rem,
+  xs: 1rem,
+  sm: 1rem,
+  md: 1rem,
+  lg: 1rem,
+  xl: 1rem,
+);
+
+$h6-font-sizes: (
+  null: .8rem,
+  xs: .8rem,
+  sm: .8rem,
+  md: .8rem,
+  lg: .8rem,
+  xl: .8rem,
+);
+
+$p-font-sizes: (
+  null: 1em,
+  xs: 1em,
+  sm: 1em,
+  md: 1em,
+  lg: 1em,
+  xl: 1em,
+);
