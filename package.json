@@ -24,8 +24,8 @@
   },
   "homepage": "https://understrap.com",
   "dependencies": {
-    "bootstrap": "^4.0.0-alpha.6",
-    "browser-sync": "^2.23.6",
+    "bootstrap": "^4.6.0",
+    "browser-sync": "^2.26.14",
     "del": "^2.2.2",
     "font-awesome": "^4.7.0",
     "gulp": "^3.9.1",
@@ -42,8 +42,8 @@
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^2.0.1",
     "gulp-watch": "^4.3.11",
-    "include-media": "^1.4.9",
-    "merge2": "^1.0.3",
+    "include-media": "^1.4.10",
+    "merge2": "^1.4.1",
     "run-sequence": "^1.2.2",
     "understrap": "^0.5.7",
     "undescores-for-npm": "^1.0.0"
