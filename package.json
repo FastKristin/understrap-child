@@ -28,7 +28,7 @@
     "browser-sync": "^2.26.14",
     "del": "^2.2.2",
     "font-awesome": "^4.7.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-clone": "^1.0.0",
     "gulp-concat": "^2.6.1",
@@ -45,7 +45,7 @@
     "include-media": "^1.4.10",
     "merge2": "^1.4.1",
     "run-sequence": "^1.2.2",
-    "understrap": "^0.5.7",
+    "understrap": "^1.0.1",
     "undescores-for-npm": "^1.0.0"
   }
 }
